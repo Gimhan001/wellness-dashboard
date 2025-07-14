@@ -51,3 +51,6 @@ A React.js + TypeScript single-page app for tracking your wellness metrics with 
     │   └── index.tsx
     └── .env.local
     ```
+
+4. **Postman Mock API**
+- Go to `https://www.postman.com/telecoms-geologist-34422362/workspace/wellness-log/collection/41011665-7926b1d4-e52b-4ed1-a2bd-46881446f14c?action=share&creator=41011665&active-environment=41011665-624bf47d-8191-45e4-b676-42db7e19ff96`
