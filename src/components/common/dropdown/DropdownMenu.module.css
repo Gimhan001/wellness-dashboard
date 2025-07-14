@@ -1,0 +1,26 @@
+.dropdownWrapper {
+  position: relative;
+  display: inline-block;
+}
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.menuItem {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background: #86a8ec;
+}

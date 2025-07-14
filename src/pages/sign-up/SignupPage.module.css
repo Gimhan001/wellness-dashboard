@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 16px;
+}
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+.title {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .card {
+    padding: 16px;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+}

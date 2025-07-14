@@ -1,0 +1,87 @@
+:global(html) {
+  box-sizing: border-box;
+}
+:global(*), :global(*::before), :global(*::after) {
+  box-sizing: inherit;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.headerContent {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007bff;
+  margin: 0;
+}
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.userInfo {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* FOOTER */
+.footer {
+  background: var(--bg-color);
+  border-top: 1px solid #e5e7eb;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.themeButton {
+  border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+  .headerContent {
+    height: 56px;
+    padding: 0 0.75rem;
+  }
+  .main {
+    padding: 0.75rem;
+  }
+  .headerActions {
+    gap: 0.5rem;
+  }
+  .userInfo {
+    display: none;
+  }
+  .footer {
+    padding: 0.5rem 0.75rem;
+  }
+}

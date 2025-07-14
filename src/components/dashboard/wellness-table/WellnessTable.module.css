@@ -1,0 +1,54 @@
+.table {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  font-weight: 600;
+  background: var(--table-header-bg);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.row:hover {
+  background: #cadef8;
+}
+
+.cell {
+  flex: 1;
+  padding: 12px 8px;
+  word-break: break-word;
+}
+
+.cellActions {
+  width: 60px;
+  padding: 12px 8px;
+  flex: none;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.message {
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.messageError {
+  padding: 1rem;
+  text-align: center;
+  color: #dc2626;
+}
