@@ -22,7 +22,7 @@ A React.js + TypeScript single-page app for tracking your wellness metrics with 
 
 1. **Clone the repo**  
    ```
-   git clone https://github.com/your-username/wellness-dashboard.git
+   git clone [https://github.com/Gimhan001/wellness-dashboard](https://github.com/Gimhan001/wellness-dashboard).git
     ```
 
 2. **Running Locally**
